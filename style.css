@@ -1,0 +1,377 @@
+*{
+    font-size: 97%;
+    line-height: 1.5em;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#logo{
+    height: 5em;
+    position: relative;
+    top: 1em;
+}
+.ytb{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+ 
+}
+iframe{
+       width: 40em; 
+    height: 20em;
+}
+hr{
+    height: 0.2em;
+    width: 10em;
+}
+.hr-hotel{
+    background-color: red;
+}
+.hr-restau{
+    background-color: orange;
+}
+.hr-services{
+    background-color: green;
+}
+.hr-activites{
+    background-color: blue;
+}
+.hr-plus{
+    background-color: violet;
+}
+.nav_bar{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    background-image: url(/image/grille.png);
+    font-family: 'Oswald';
+    line-height: 1.75;
+    background-repeat: repeat;
+}
+
+ul{
+    list-style-type: none;
+}
+.text_services{
+    display: flex;
+    justify-content: center;
+    background-image: url(/image/grille.png);
+    font-family: 'Droid Serif',sans-serif;
+}
+
+.second{
+    color: rgb(226,128,15);
+    position: relative;
+    right: 1.5em;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.second1{
+    color: rgb(226, 128, 15);
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.second2{
+    position: relative;
+    right: 2em;
+    width: 15em;
+}
+.second3{
+    position: relative;
+    right: 2em;
+    font-family: 'Droid Serif';
+    font-style: italic;
+    opacity: 0.5;
+}
+.second4{
+    position: relative;
+    right: 2em;
+    font-family: 'Droid Sans';
+    opacity: 0.7;
+}
+
+.accro-ff{
+    display: flex;
+    flex-direction: column;
+    width: 18.5em;
+}
+
+.second_flex{
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+    font-family: 'Droid Sans';
+}
+.img_accro img{
+   border-spacing: 0.5em 0.5em;
+   padding: 0.4em 0.4em;
+   margin: 0.4em;
+   border: solid 0.1em lightgray;
+   box-shadow: 0.05em 0.05em lightgray;
+} 
+.img_accro{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    right: 0.6em;
+}
+
+.troisieme_flex{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    background-image: url(/image/grille.png);
+    border: solid 0.1em lightgrey;
+    
+}
+.contact-align p {
+    position: relative;
+    bottom: 2em;
+    left: 2.3em;
+    margin: -0.4em;
+    font-family: 'Droid Sans';
+    opacity: 0.6;
+
+}
+
+.contact{
+    width: 10em;
+}
+
+.billet{
+    width: 17em;
+}
+
+.last_com{
+    width: 16em;
+}
+.blabla{
+    width: 16em;
+}
+
+.bold{
+    font-weight: bold;
+}
+.lien-ext{
+    display: inline-flex;
+    position: relative;
+    left: 20em;
+    bottom: 1.6em;
+    font-family: 'Droid Sans';
+    font-size: 0.8em;
+    opacity: 0.6;
+}
+.pipe:after{
+    content: "|";
+    padding: 0.5em;
+}
+.lien-reseau{
+    display: inline-flex;
+    position: relative;
+    right: -35em;
+}
+.lien-reseau img{
+    margin: 0.2em;
+}
+#copyright{
+    position: relative;
+    right: 19.5em;
+    line-height: 1.5em;
+}
+.golf{
+    position: relative;
+    width: 13em;
+    border: solid 0.1em lightgrey;
+    padding-top: 1em;
+    bottom: 0.8em;
+}
+.golf img {
+    position: relative;
+    right: 2em;
+}
+.commentaire{
+    width: 35em;
+}
+.service-p{
+    padding: 1em;
+    font-family: 'Droid Serif';
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.pub{
+    color: lightgray;
+    font-family: 'Droid Serif';
+    font-style: italic;
+}
+.pub_golf{
+    color: lightgray;
+    font-family: 'Droid Serif';
+    font-style: italic;
+    position: relative;
+    right: 2em;
+}
+
+.lire-plus{
+    font-family: 'Droid Serif';
+    font-style: italic;
+    opacity: 0.5;
+}
+.text{
+    font-family: 'Droid Sans';
+    opacity: 0.7;
+}
+.titre3{
+
+    opacity: 0.5;
+    position: relative;
+    font-size: 1.1em;
+    font-weight: 500;
+    font-family: 'Droid Sans';
+}
+.footer-text{
+    font-family: 'Droid Sans';
+    opacity: 0.6;
+}
+.mail{
+    text-decoration: underline;
+}
+.com{
+    font-family: 'Droid Sans';
+    opacity: 0.6;
+    text-decoration: underline;
+}
+#burger{
+    cursor: pointer;
+    display: none;
+}
+@media (max-width: 650px){
+        #burger{
+            display: block;
+        }
+        #burger:before{
+            content: "\2630";
+        }
+        .nav ul{
+            position: fixed;
+            left: -100%;
+            top: 5%;
+
+        }
+}
+ @media only screen and (min-width:320px) and (max-width: 1000px){
+    
+    body{
+        overflow-x: hidden;
+    }
+    #logo{
+        display: flex;
+        position: relative;
+        top: 2em;
+    }
+    .nav_bar{
+        display: flex; 
+        flex-direction: row;
+        font-size: 160%;
+        margin-left: 65%;
+        }
+    
+    .ytb{
+        display: flex;
+        position: relative;
+        height: 0;
+        padding: 56.25%;
+        overflow: hidden;
+        justify-content: center;
+    }
+
+    .ytb iframe{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .text_services{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 180%;
+        font-size: 4em;
+    }
+    .second_flex{
+        display: flex;
+        flex-wrap: wrap;
+        width: 150%;
+        font-size: 3em;
+    }
+    .golf{
+        position: relative;
+        right: 1em;
+    }
+    .balle_golf{
+        left: 0.8em;
+        width: 12em;
+    }
+    .second{
+        left: -0.3em;
+    }
+    .img_accro{
+        display: flex;
+        flex-wrap: wrap;
+        width: 40em;
+    }
+    .img_accro img{
+        width: 10em;
+    }
+    .troisieme_flex{
+        display: flex;
+        flex-wrap: wrap;
+        width: 160%;
+        font-size: 3em;
+    }
+    .contact{
+        position: relative;
+        right: 5em;
+    }
+    .billet{
+        position: relative;
+        left: 3.5em;
+    }
+    .last_com{
+        position: relative;
+        right: 2.5em;
+    }
+    .contact img {
+        width: 2em;
+    }
+    .lien-ext{
+        display: flex;
+        flex-wrap: nowrap;
+        position: relative;
+        font-size: 3em;
+        left: 1.5em;
+        top: 0.2em;
+        width: 60em;
+    }
+    #copyright{
+        display: flex;
+        width: 20em;
+    }
+    .lien-reseau img{
+        width: 6em;
+    }
+    .lien-reseau{
+        position: relative;
+        left: 76em;
+        bottom: 11em;
+    }
+    span{
+        position: relative;
+        left: 1.5em;
+    }
+} 
